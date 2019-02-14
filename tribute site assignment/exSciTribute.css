@@ -1,0 +1,121 @@
+body{
+	font-family: verdana;
+	background-color: #000;
+	margin:0;
+	padding:0;
+	background-image: url(bg.jpg);
+	background-repeat:no-repeat;
+	/*background-position: right bottom;
+	background-image: url(bg.jpg);*/
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	/*background-image: url(tide*/
+}
+
+.hdrPic{
+	width: 14%;
+	float:right;
+	/*position: absolute;
+	top:151%;
+	right:0px;*/
+	border-radius: 10px;
+	padding: 5px;
+	
+}
+
+.hdrPic2{
+	width: 14%;
+	position: absolute;
+	top:60%;
+	left:0px;
+	border-radius: 10px;
+	padding: 5px;
+	
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto; /*adds 0 margin to the top and bottom, auto is right and left automatically the same number of pixels on either side*/
+}/*selects anything within the id "wrap"  now lets add some margin to it*/
+
+header img{
+	width:70%;
+	border-radius:10px;
+}
+
+header{
+	/*padding: 10px;*/
+	background-color: black;
+	text-align:center;
+	background-image: linear-gradient(blue, lilghtblue);
+}
+
+nav{
+	background-color: #000;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia;
+
+}
+
+nav li{
+	display: inline;
+	padding: 20px;
+
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	/*padding: 10px;*/
+}
+
+nav a:hover{
+	color: white;
+	background-color:#0b3d91 ;
+	padding: 10px 30px;
+}
+
+section{
+	padding:10px;
+	background-color: #FFF;
+	overflow: auto;
+	background:url(maleFemaleVitruvian.jpg);
+	border-radius:10px;
+}
+
+/*.bgpic{
+	width: 50%;
+	float: right;/*can't float things in the middle - float removes an element out of its order and puts it somewhere else
+}*/
+
+.button{
+	background-color: #0b3d91;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 15px 0px;
+	display: inline-block;
+}
+
+a.button:hover{
+	background-color:#000;
+}
+
+footer{
+	background-color: #0b3d91;
+	color: white;
+	/*give the footer some padding*/
+	padding: 10px;
+	text-align: center;
+	border-radius:10px;
+	
+}
