@@ -1,0 +1,160 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+
+body.spring{
+	background-image: url("springBkGrnd.jpg");
+	position: relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+	background-position: center;
+}
+body.summer{
+	background: url("summerBkGrnd.jpg");
+	position: relative;
+    background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+body.fall{
+	background-image: url("fallBkGrnd.jpg");
+	position: relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+	background-position: center;
+}
+body.winter{
+	background-image: url("winterBkGrnd.jpg");
+	position: relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+	background-position: center;
+}
+
+#wrap{
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*comment the following out later*/
+header, section, footer{
+	background-color: #ddd;
+	height: auto;
+	margin: 20px;
+	overflow: auto;
+	text-align: center;
+}
+
+.springColor{
+	background-color: rgba(251, 173, 213, 0.8);
+}
+
+
+section.springColor figure img{
+	width:45%;
+	padding-right:10px;
+	float: left;
+	
+}
+
+.winterColor{
+	background-color: rgba(106, 158, 187, .8);
+}
+
+section.winterColor figure img{
+	width:50%;
+	padding-right:10px;
+	float: left;
+	
+}
+
+.summerColor{
+	background-color: rgba(151, 142, 77, .8);
+}
+
+section.summerColor figure img{
+	width:50%;
+	padding-right:10px;
+	float: left;
+	
+}
+
+.fallColor{
+	background-color: rgba(200, 142, 77, .8);
+}
+
+section.fallColor figure img{
+	width:50%;
+	padding-right:10px;
+	float: left;
+	
+}
+
+section{
+	padding: 5%;
+}
+
+header h1, h2{
+	text-align:center
+}
+
+nav{
+	margin: auto;
+    width: 96%;
+    background-color: #ddd;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-bottom: 10px;
+
+}
+
+nav li{
+	display: inline;
+	padding: 20px;
+
+}
+
+nav ul{
+	margin:0;
+	padding:0;
+}
+
+nav ul li a{
+	color: DarkSlateGrey;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+article{
+	width: 100%;
+	margin: auto;
+	margin-left:0;
+	margin-right:0;
+	overflow:auto;
+}
+
+figure.home{
+	/*background-color: black;*/
+	text-align: center;
+	width: 24%;
+	display: inline-block;
+	/*padding: 10px 10px 5px 10px;
+	border: 1px solid white;*/
+	float: center;
+	margin: 0 auto
+}
+
+figure.home img{
+	width: 100%;
+}
+
+a.home{
+	/*background-color: blue;*/
+}
