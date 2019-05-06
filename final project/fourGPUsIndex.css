@@ -282,6 +282,9 @@ figure.home img{
 	.ytvid {
 		width: 90%;
 	}
+	.form{
+		width: 90%;
+	}
 }
 
 
@@ -298,6 +301,9 @@ figure.home img{
         /*height: 169px; /* 320px */
     }
 	.ytvid {
+		width: 90%;
+	}
+	.form{
 		width: 90%;
 	}
 }
