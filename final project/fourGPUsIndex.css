@@ -278,7 +278,10 @@ figure.home img{
 	.fbvid {
         width: 90%;
         /*height: 270px; /* 320px */
-    }
+	}
+	.ytvid {
+		width: 90%;
+	}
 }
 
 
@@ -294,4 +297,7 @@ figure.home img{
         width: 90%;
         /*height: 169px; /* 320px */
     }
+	.ytvid {
+		width: 90%;
+	}
 }
