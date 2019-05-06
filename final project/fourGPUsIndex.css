@@ -3,33 +3,36 @@ html, body{
 	padding: 0;
 }
 
-body.spring{
-	background-image: url("springBkGrnd.jpg");
+body.index{
+	background-image: url("indexBkGrnd.jpg");
 	position: relative;
     background-repeat:no-repeat;
     background-size:cover;
 	background-position: center;
 }
-body.summer{
-	background: url("summerBkGrnd.jpg");
-	position: relative;
-    background-repeat:no-repeat;
-	background-size:cover;
-	background-position: center;
-}
-body.fall{
-	background-image: url("fallBkGrnd.jpg");
+body.overlap{
+	background-image: url("overlapBackground.jpg");
 	position: relative;
     background-repeat:no-repeat;
     background-size:cover;
 	background-position: center;
 }
-body.winter{
-	background-image: url("winterBkGrnd.jpg");
+body.change{
+	background-image: url("changeBackground.jpg");
 	position: relative;
     background-repeat:no-repeat;
     background-size:cover;
 	background-position: center;
+}
+body.allElse{
+	background-image: url("allElseBackground.jpg");
+	position: relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+	background-position: center;
+}
+body.newsletter{
+	background-color: blue;
 }
 
 #wrap{
@@ -45,50 +48,24 @@ header, section, footer{
 	overflow: auto;
 	text-align: center;
 }
-
-.springColor{
-	background-color: rgba(251, 173, 213, 0.8);
+header img{
+	width: 80%;
+	position: center;
 }
 
-
-section.springColor figure img{
-	width:45%;
-	padding-right:10px;
-	float: left;
-	
+.indexColor{
+	background-color: rgba(205, 213, 226, .6);
 }
-
-.winterColor{
-	background-color: rgba(106, 158, 187, .8);
+.overlapSubdivColor{
+	background-color: rgba(184, 176, 168, .6);
 }
-
-section.winterColor figure img{
-	width:50%;
-	padding-right:10px;
-	float: left;
-	
+.changeColor{
+	background-color: rgba(236, 200, 163, 0.6);
+	/*font-*/
 }
-
-.summerColor{
-	background-color: rgba(151, 142, 77, .8);
-}
-
-section.summerColor figure img{
-	width:50%;
-	padding-right:10px;
-	float: left;
-	
-}
-
-.fallColor{
-	background-color: rgba(200, 142, 77, .8);
-}
-
-section.fallColor figure img{
-	width:50%;
-	padding-right:10px;
-	float: left;
-	
+.allElseColor{
+	background-color: rgba(159, 157, 189, .6);
+	color: white;
 }
 
 section{
@@ -126,6 +103,14 @@ nav ul li a{
 	color: DarkSlateGrey;
 	text-decoration: none;
 }
+nav.allElseColor ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav.allElseColor ul li a:hover{
+	color: red;
+	text-decoration: none;
+}
 nav ul li a:hover{
 	color: blue;
 	text-decoration: none;
@@ -151,13 +136,8 @@ figure.home{
 }
 
 figure.home img{
-	width: 100%;
+	width: 90%;
 }
-
-a.home{
-	/*background-color: blue;*/
-}
-
 
 
 /*
